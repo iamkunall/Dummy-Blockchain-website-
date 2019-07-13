@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,88 +106,720 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _BannerContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./BannerContent */ "./components/BannerContent.js");
 var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\Banner.js";
+
 
 
 var BannerStyled = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
   displayName: "Banner__BannerStyled",
   componentId: "sc-16n7m1g-0"
-})(["margin-top:2rem;"]);
+})(["paddin-bottom:1rem;.Heading{font-size:65px;font-family:Roboto,sans-serif;margin-bottom:3rem;}.subheading{margin-bottom:3rem;}.second{padding-bottom:9rem;padding-top:9rem;}.first{padding-left:8rem;padding-right:1rem;}"]);
 
 var Banner = function Banner() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BannerStyled, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 30
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "columns",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column",
+    className: "column  is-half has-text-left first ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 32
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container is-large",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "hero is-title is-bold",
+    className: "hero is-medium ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "hero-body",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 35
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "title title is-1 has-text-white has-text-weight-bold",
+    className: "title title is-1 has-text-white has-text-weight-bold Heading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 36
     },
     __self: this
-  }, "Connecting the world to crypto"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "subtitle is-2 has-text-grey-lighter",
+  }, "Connecting the world to Crypto"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "subtitle is-2 has-text-grey-lighter subheading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 39
     },
     __self: this
-  }, "The easy way to send, receive, Store and Trade digital currencies")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "The easy way to send, receive, Store and Trade digital currencies"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     "class": "button is-large is-link has-text-weight-bold title is-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 42
     },
     __self: this
-  }, "Get a Free Wallet"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column",
+  }, "Get a Free Wallet"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-pulled-right second",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BannerContent__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    price: "$232254",
+    value: "Bitcoin",
+    per: "1%",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BannerContent__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    price: "$274.90",
+    value: "Etherum",
+    per: "0.6%%",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BannerContent__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    price: "$350.47",
+    value: "Bitcoin Cash",
+    per: "0.7%",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BannerContent__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    price: "$0.10",
+    value: "stellar",
+    per: "10.9%",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Banner);
+
+/***/ }),
+
+/***/ "./components/BannerContent.js":
+/*!*************************************!*\
+  !*** ./components/BannerContent.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\BannerContent.js";
+
+
+var Contanier = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "BannerContent__Contanier",
+  componentId: "sdzxzp-0"
+})(["     .mybox{min-width:32rem;font-family:Roboto,sans-serif;margin-bottom:1rem;background-color:#144698;opacity:0.75;color:white;font-weight:600;transition:background-color 0.2s;}.mybox:hover{min-width:38rem;background-color:#00285C;}p{margin-right:4rem;font-size:20px;}.icon{margin-right:2rem;font-size:20px;}"]);
+
+var BannerContent = function BannerContent(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Contanier, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "box mybox is-pulled-right has-text-right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "is-inline",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, props.price), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "is-inline",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, props.value), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-caret-up is-inline icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "is-inline",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, props.per)));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (BannerContent);
+
+/***/ }),
+
+/***/ "./components/Create.js":
+/*!******************************!*\
+  !*** ./components/Create.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\Create.js";
+
+
+var CreateStyled = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Create__CreateStyled",
+  componentId: "sc-1jqpexx-0"
+})(["padding-top:4rem;padding-bottom:4rem;background-color:#144698;.button{margin:3.5rem;margin-bottom:0rem;margin-top:2rem;padding:0rem 2rem 0rem 2rem;}.one{background:#0C6CF2}.two{background:transparent;}}"]);
+
+var Create = function Create() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CreateStyled, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns  is-mobile is-multiline is-centered",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-half has-text-centered",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "title is-2 has-text-white has-text-weight-semibold  is-spaced",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "Enter the Future of Finance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-3 has-text-grey-light",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, "Empowering individual, investors, and developers to join the revolution"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "button is-link is-large is-focused subtitle is-3 one",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "Create a Wallet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "button is-link is-large is-focused subtitle is-3 two",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "Learn more"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Create);
+
+/***/ }),
+
+/***/ "./components/Footer.js":
+/*!******************************!*\
+  !*** ./components/Footer.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\Footer.js";
+
+
+var FooterStyled = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Footer__FooterStyled",
+  componentId: "wbb7br-0"
+})(["background-color:#F0F2F7;padding-top:6rem;padding-bottom:6rem;.second{margin-top:4rem;}.Language{background-color:#F0F2F7;}span{margin:1rem;}"]);
+
+var Footer = function Footer() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FooterStyled, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     },
     __self: this
-  }, "Second column"))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "title is-5  has-text-weight-semibold  is-spaced",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "PRODUCTS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "Blockchain Markest"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "Lockbox"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "Developers")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "title is-5  has-text-weight-semibold  is-spaced",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "DATA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "Price"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "Charts"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "Bitcoin Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "Ethereum Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "Bitcoin Cash Explorer")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "title is-5  has-text-weight-semibold  is-spaced",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "DATA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, "Price"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, "Charts"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "Bitcoin Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, "Ethereum Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, "Bitcoin Cash Explorer"), "                    "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "title is-5  has-text-weight-semibold  is-spaced",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "DATA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, "Price"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "Charts"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "Bitcoin Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, "Ethereum Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, "Bitcoin Cash Explorer")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "title is-5  has-text-weight-semibold  is-spaced",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, "DATA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, "Price"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, "Charts"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, "Bitcoin Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, "Ethereum Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "subtitle is-4 has-text-grey",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, "Bitcoin Cash Explorer"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns second",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "select is-medium Language",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "English",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, "English"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Argentina",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, "Argentina"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Bolivia",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, "Bolivia"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Brazil",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
+    },
+    __self: this
+  }, "Brazil"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Chile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, "Chile"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Colombia",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }, "Colombia"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Ecuador",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  }, "Ecuador"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Guyana",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, "Guyana"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Paraguay",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, "Paraguay"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Peru",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, "Peru"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Suriname",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, "Suriname"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Uruguay",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, "Uruguay"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Venezuela",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, "Venezuela")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column has-text-right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "class": "icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "fab fa-twitter-square icon is-large",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "class": "icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "fab fa-linkedin icon is-large",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "class": "icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "fab fa-facebook-square icon is-large",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
+    },
+    __self: this
+  }))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Banner);
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
 
 /***/ }),
 
@@ -623,6 +1255,184 @@ function (_React$Component) {
 
 /***/ }),
 
+/***/ "./components/Main.js":
+/*!****************************!*\
+  !*** ./components/Main.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\Main.js";
+
+
+var MainStyled = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Main__MainStyled",
+  componentId: "sc-1rv7948-0"
+})(["background-color:#FFFFFF;padding-top:1rem;padding-bottom:9rem;font-family:Roboto,sans-serif;.maindiv{padding-top:10rem;}.Heading{padding-top:5rem;font-size:3rem;}.sub{padding-top:1rem;font-size:2rem;}.test{padding-right:2rem;}"]);
+
+var Main = function Main() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainStyled, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns maindiv",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-two-fifths",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "title Heading has-text-weight-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "Your Passport to the Future of Finance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "subtitle sub",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "The first and most trusted global cryptocurrency comapny")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://www.blockchain.com/static/img/home/home-map-ppl.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column test",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "title  has-text-weight-bold is-spaced",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, "Invest"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "subtitle is-3 has-text-weight-light ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "Exchange and transact bitcoin, ethereum, bitcoin cash, USD PAX, and stellar lumens using the world's most trusted and secure cryptocurrency wallet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    "class": "subtitle is-4 has-text-link",
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, "Lean more ->")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column test",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "title  has-text-weight-bold is-spaced ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "Explore"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "subtitle is-3 has-text-weight-light ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "Exchange and transact bitcoin, ethereum, bitcoin cash, USD PAX, and stellar lumens using the world's most trusted and secure cryptocurrency wallet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    "class": "subtitle is-4 has-text-link",
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "Lean more ->")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column test",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "title  has-text-weight-bold is-spaced",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, "Analyze"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "subtitle is-3 has-text-weight-light ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, "Exchange and transact bitcoin, ethereum, bitcoin cash, USD PAX, and stellar lumens using the world's most trusted and secure cryptocurrency wallet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    "class": "subtitle is-4 has-text-link",
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, "Lean more ->")))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Main);
+
+/***/ }),
+
 /***/ "./components/MyLayout.js":
 /*!********************************!*\
   !*** ./components/MyLayout.js ***!
@@ -637,7 +1447,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
 var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\MyLayout.js";
+
 
 
 
@@ -646,13 +1458,13 @@ var Layout = function Layout(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -660,19 +1472,174 @@ var Layout = function Layout(props) {
     href: "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    defer: true,
+    src: "https://use.fontawesome.com/releases/v5.3.1/js/all.js",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }), props.children);
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap",
+    rel: "stylesheet",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
+/***/ "./components/Reach.js":
+/*!*****************************!*\
+  !*** ./components/Reach.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\Reach.js";
+
+
+var ReachStyled = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div.withConfig({
+  displayName: "Reach__ReachStyled",
+  componentId: "agn249-0"
+})(["background-color:#121D33;padding-bottom:1rem;.Heading{padding-top:1rem;padding-bottom:0.2rem;}.Sub{margin-top:10rem;}"]);
+
+var Reach = function Reach() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ReachStyled, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column has-text-centered ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "title is-2 has-text-white Heading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "40M+"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "subtitle is-4 has-text-grey-lighter",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "Wallets")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column has-text-centered",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "title is-2 has-text-white Heading Heading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "$200B+"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "subtitle is-4 has-text-grey-lighter",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "Transacted")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column has-text-centered",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "title is-2 has-text-white Heading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "140"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "subtitle is-4 has-text-grey-lighter",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "countries")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column has-text-centered",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "title is-2 has-text-white Heading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "2011"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "subtitle is-4 has-text-grey-lighter",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "Founded")))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Reach);
 
 /***/ }),
 
@@ -1742,42 +2709,82 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
-/* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Banner */ "./components/Banner.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
+/* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Banner */ "./components/Banner.js");
+/* harmony import */ var _components_Reach__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Reach */ "./components/Reach.js");
+/* harmony import */ var _components_Main__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Main */ "./components/Main.js");
+/* harmony import */ var _components_Create__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Create */ "./components/Create.js");
 var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\pages\\index.js";
+
+
+
+
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2764365415",
+    className: "jsx-3612379279",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MyLayout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 11
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Banner__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
+    className: "jsx-3612379279",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 12
+    },
+    __self: this
+  }, "Blockchain")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MyLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Banner__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Reach__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Main__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Create__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "2764365415",
+    id: "3612379279",
     __self: this
-  }, "body{background-color:#144699;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xca3VuYWxcXERlc2t0b3BcXEJsb2NrXFxwYWdlc1xcaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBUTJCLEFBR3lDLHlCQUM1QiIsImZpbGUiOiJDOlxcVXNlcnNcXGt1bmFsXFxEZXNrdG9wXFxCbG9ja1xccGFnZXNcXGluZGV4LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tIFwiLi4vY29tcG9uZW50cy9NeUxheW91dFwiO1xyXG5pbXBvcnQgQmFubmVyIGZyb20gXCIuLi9jb21wb25lbnRzL0Jhbm5lclwiO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgKCkgPT4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgICA8TGF5b3V0PlxyXG4gICAgICAgICAgICA8QmFubmVyIC8+XHJcbiAgICAgICAgPC9MYXlvdXQ+XHJcbiAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgICAgICAgYm9keXtcclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IzE0NDY5OTtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgIFxyXG4gICAgICAgIGB9PC9zdHlsZT5cclxuICAgIDwvZGl2PlxyXG4pOyJdfQ== */\n/*@ sourceURL=C:\\Users\\kunal\\Desktop\\Block\\pages\\index.js */"));
+  }, "body{background-color:#144699;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xca3VuYWxcXERlc2t0b3BcXEJsb2NrXFxwYWdlc1xcaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUIyQixBQUd5Qyx5QkFDNUIiLCJmaWxlIjoiQzpcXFVzZXJzXFxrdW5hbFxcRGVza3RvcFxcQmxvY2tcXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcclxuXHJcbmltcG9ydCBMYXlvdXQgZnJvbSBcIi4uL2NvbXBvbmVudHMvTXlMYXlvdXRcIjtcclxuaW1wb3J0IEJhbm5lciBmcm9tIFwiLi4vY29tcG9uZW50cy9CYW5uZXJcIjtcclxuaW1wb3J0IFJlYWNoIGZyb20gXCIuLi9jb21wb25lbnRzL1JlYWNoXCI7XHJcbmltcG9ydCBNYWluIGZyb20gXCIuLi9jb21wb25lbnRzL01haW5cIjtcclxuaW1wb3J0IENyZWF0ZSBmcm9tIFwiLi4vY29tcG9uZW50cy9DcmVhdGVcIjtcclxuXHJcbmV4cG9ydCBkZWZhdWx0ICgpID0+IChcclxuICAgIDxkaXY+XHJcbiAgICAgICAgPEhlYWQ+XHJcbiAgICAgICAgICAgIDx0aXRsZT5CbG9ja2NoYWluPC90aXRsZT5cclxuICAgICAgICA8L0hlYWQ+XHJcbiAgICAgICAgPExheW91dD5cclxuICAgICAgICAgICAgPEJhbm5lciAvPlxyXG4gICAgICAgICAgICA8UmVhY2ggLz5cclxuICAgICAgICAgICAgPE1haW4gLz5cclxuICAgICAgICAgICAgPENyZWF0ZSAvPlxyXG4gICAgICAgIDwvTGF5b3V0PlxyXG4gICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXHJcbiAgICAgICAgICAgIGJvZHl7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiMxNDQ2OTk7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICA8L2Rpdj5cclxuKTsiXX0= */\n/*@ sourceURL=C:\\Users\\kunal\\Desktop\\Block\\pages\\index.js */"));
 });
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
