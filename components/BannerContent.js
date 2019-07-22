@@ -12,10 +12,13 @@ const Contanier = styled.div`
     color:white;
     font-weight:600;
     transition:background-color 0.2s;
+    float: right;
+    text-align: right;
 }
 .mybox:hover{
     min-width: 38rem;
     background-color:#00285C;
+    
 }
 
 p{
@@ -27,12 +30,22 @@ p{
     font-size:20px;
 }
 
+@media screen and (max-width: 480px){
+    .mybox{
+        float: none;
+        text-align: inherit;
+    }
+    p{
+        margin-right:2.25rem;
+    }
+}
+
 
 `;
 
 const BannerContent = (props) => (
     <Contanier>
-        <div className="box mybox is-pulled-right has-text-right">
+        <div className="box mybox  ">
             <p className="is-inline">{props.price}</p>
             <p className="is-inline">{props.value}</p>
             <i className="fas fa-caret-up is-inline icon"></i>

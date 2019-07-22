@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Link from "next/link";
 
 const CreateStyled = styled.div`
     padding-top:4rem;
@@ -6,8 +7,7 @@ const CreateStyled = styled.div`
     background-color:#144698;
 
     .button{
-        margin:3.5rem;
-        margin-bottom:0rem;
+
         margin-top:2rem;
         padding:0rem 2rem 0rem 2rem;
     }
@@ -18,7 +18,10 @@ const CreateStyled = styled.div`
 
     .two{
         background: transparent;
-}
+    }
+    
+    .to{
+        text-align:center;
     }
 
 `;
@@ -31,8 +34,16 @@ const Create = () => (
                     Enter the Future of Finance
                 </h2>
                 <h3 className="subtitle is-3 has-text-grey-light">Empowering individual, investors, and developers to join the revolution</h3>
-                <a className="button is-link is-large is-focused subtitle is-3 one">Create a Wallet</a>
-                <a className="button is-link is-large is-focused subtitle is-3 two">Learn more</a>
+            </div>
+        </div>
+        <div className="columns  is-mobile is-multiline is-centered">
+            <div class="columns">
+                <div className="column">
+                    <Link href="/signup"><a className="button is-link is-large is-focused subtitle is-3 one">Create a Wallet</a></Link>
+                </div>
+                <div className="column to">
+                    <a className="button is-link is-large is-focused subtitle is-3 two">Learn more</a>
+                </div>
             </div>
         </div>
 

@@ -1,1240 +1,8 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\signup.js"],{
 
-/***/ "./components/Banner.js":
-/*!******************************!*\
-  !*** ./components/Banner.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _BannerContent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./BannerContent */ "./components/BannerContent.js");
-var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\Banner.js";
-
-
-
-
-var BannerStyled = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
-  displayName: "Banner__BannerStyled",
-  componentId: "sc-16n7m1g-0"
-})(["padding-bottom:2rem;@media screen and (max-width:480px){padding-top:4rem;}.Heading{font-size:55px;font-family:Roboto,sans-serif;margin-bottom:3rem;}.subheading{margin-bottom:3rem;}.second{padding-bottom:9rem;padding-top:9rem;}.first{padding-left:8rem;padding-right:0rem;}@media screen and (max-width:480px){.first{padding-left:0rem;padding-right:0rem;}}"]);
-
-var Banner = function Banner() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(BannerStyled, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column  has-text-left first ",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "hero is-medium ",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "hero-body",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "title title is-1 has-text-white has-text-weight-bold Heading",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, "Connecting the world to Crypto"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "subtitle is-3 has-text-grey-lighter subheading",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, "The easy way to send, receive, Store and Trade digital currencies"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/signup",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    "class": "button is-large is-link has-text-weight-bold title is-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: this
-  }, "Get a Free Wallet"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column second",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BannerContent__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    price: "$232254",
-    value: "Bitcoin",
-    per: "1%",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BannerContent__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    price: "$274.90",
-    value: "Etherum",
-    per: "0.6%%",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BannerContent__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    price: "$350.47",
-    value: "Bitcoin Cash",
-    per: "0.7%",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BannerContent__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    price: "$0.10",
-    value: "stellar",
-    per: "10.9%",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Banner);
-
-/***/ }),
-
-/***/ "./components/BannerContent.js":
-/*!*************************************!*\
-  !*** ./components/BannerContent.js ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\BannerContent.js";
-
-
-var Contanier = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
-  displayName: "BannerContent__Contanier",
-  componentId: "sdzxzp-0"
-})(["     .mybox{min-width:32rem;font-family:Roboto,sans-serif;margin-bottom:1rem;background-color:#144698;opacity:0.75;color:white;font-weight:600;transition:background-color 0.2s;float:right;text-align:right;}.mybox:hover{min-width:38rem;background-color:#00285C;}p{margin-right:4rem;font-size:20px;}.icon{margin-right:2rem;font-size:20px;}@media screen and (max-width:480px){.mybox{float:none;text-align:inherit;}p{margin-right:2.25rem;}}"]);
-
-var BannerContent = function BannerContent(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Contanier, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "box mybox  ",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "is-inline",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, props.price), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "is-inline",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, props.value), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fas fa-caret-up is-inline icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "is-inline",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: this
-  }, props.per)));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (BannerContent);
-
-/***/ }),
-
-/***/ "./components/Create.js":
-/*!******************************!*\
-  !*** ./components/Create.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\Create.js";
-
-
-
-var CreateStyled = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
-  displayName: "Create__CreateStyled",
-  componentId: "sc-1jqpexx-0"
-})(["padding-top:4rem;padding-bottom:4rem;background-color:#144698;.button{margin-top:2rem;padding:0rem 2rem 0rem 2rem;}.one{background:#0C6CF2}.two{background:transparent;}.to{text-align:center;}"]);
-
-var Create = function Create() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CreateStyled, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns  is-mobile is-multiline is-centered",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column is-half has-text-centered",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "title is-2 has-text-white has-text-weight-semibold  is-spaced",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, "Enter the Future of Finance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "subtitle is-3 has-text-grey-light",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, "Empowering individual, investors, and developers to join the revolution"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns  is-mobile is-multiline is-centered",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/signup",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "button is-link is-large is-focused subtitle is-3 one",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, "Create a Wallet"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column to",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "button is-link is-large is-focused subtitle is-3 two",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, "Learn more")))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Create);
-
-/***/ }),
-
-/***/ "./components/Footer.js":
-/*!******************************!*\
-  !*** ./components/Footer.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\Footer.js";
-
-
-var FooterStyled = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
-  displayName: "Footer__FooterStyled",
-  componentId: "wbb7br-0"
-})(["background-color:#F0F2F7;.second{margin-top:4rem;}.Language{background-color:#F0F2F7;}span{margin:1rem;}a{display:block;}"]);
-
-var Footer = function Footer() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FooterStyled, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "section",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "title is-5  has-text-weight-semibold  is-spaced",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, "PRODUCTS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey ",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "Blockchain Market"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, "Lockbox"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, "Developers")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "title is-5  has-text-weight-semibold  is-spaced",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, "DATA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, "Price"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, "Charts"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, "Bitcoin Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, "Ethereum Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, "Bitcoin Cash Explorer")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "title is-5  has-text-weight-semibold  is-spaced",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, "DATA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, "Price"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }, "Charts"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, "Bitcoin Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, "Ethereum Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, "Bitcoin Cash Explorer"), "                    "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "title is-5  has-text-weight-semibold  is-spaced",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: this
-  }, "DATA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: this
-  }, "Price"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: this
-  }, "Charts"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: this
-  }, "Bitcoin Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, "Ethereum Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }, "Bitcoin Cash Explorer")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "title is-5  has-text-weight-semibold  is-spaced",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  }, "DATA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
-  }, "Price"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
-    },
-    __self: this
-  }, "Charts"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63
-    },
-    __self: this
-  }, "Bitcoin Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }, "Ethereum Explorer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65
-    },
-    __self: this
-  }, "Bitcoin Cash Explorer"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns second",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column ",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "select is-medium Language",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "English",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, "English"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "Argentina",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: this
-  }, "Argentina"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "Bolivia",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74
-    },
-    __self: this
-  }, "Bolivia"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "Brazil",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75
-    },
-    __self: this
-  }, "Brazil"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "Chile",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76
-    },
-    __self: this
-  }, "Chile"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "Colombia",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77
-    },
-    __self: this
-  }, "Colombia"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "Ecuador",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78
-    },
-    __self: this
-  }, "Ecuador"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "Guyana",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79
-    },
-    __self: this
-  }, "Guyana"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "Paraguay",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80
-    },
-    __self: this
-  }, "Paraguay"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "Peru",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81
-    },
-    __self: this
-  }, "Peru"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "Suriname",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82
-    },
-    __self: this
-  }, "Suriname"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "Uruguay",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 83
-    },
-    __self: this
-  }, "Uruguay"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-    value: "Venezuela",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84
-    },
-    __self: this
-  }, "Venezuela")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column has-text-right",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    "class": "icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fab fa-twitter-square icon is-large",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 90
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    "class": "icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fab fa-linkedin icon is-large",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    "class": "icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fab fa-facebook-square icon is-large",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96
-    },
-    __self: this
-  })))))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Footer);
-
-/***/ }),
-
-/***/ "./components/Header.js":
-/*!******************************!*\
-  !*** ./components/Header.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Header; });
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-
-
-
-
-
-var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\Header.js";
-
-
-
-var ContainerStyled = styled_components__WEBPACK_IMPORTED_MODULE_7__["default"].nav.withConfig({
-  displayName: "Header__ContainerStyled",
-  componentId: "sc-18lvmq5-0"
-})(["background-color:#144699;padding-bottom:1rem;@media screen and (max-width:480px){position:unset !important;left:0;right:0;z-index:0;!important;}.logo{color:#FFFFFF;font-size:30px;font-weight:800;}.Nav{margin-left:1rem;background:transparent;}.Nav:hover{color:white;background:transparent;}.nav-a{color:#FFFFFF;font-size:20px;font-weight:600;}.nav-a:hover{color:#FFFFFF;background:transparent;}.add{font-family:'Montserrat',sans-serif;display:flex;flex-direction:column;align-items:flex-start;flex-wrap:nowrap;margin-top:0.5rem;background-color:rgba(0,0,0,0)}.add a{font-weight:600;font-size:18px;color:#144699;}.buttons{margin-top:0.5rem;}.button{background-color:#00285C;margin-left:1rem;color:#FFFFFF;font-size:24px;border:2px solid #00285C;transition:font-size 0.2s;}.button:hover{background-color:#00285C;font-size:23.5px;}.mobile{color:#ffff;}"]);
-
-var Header =
-/*#__PURE__*/
-function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Header, _React$Component);
-
-  function Header(props) {
-    var _this;
-
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Header);
-
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Header).call(this, props));
-    _this.state = {
-      isActive: false
-    };
-    return _this;
-  }
-
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Header, [{
-    key: "MobileMenu",
-    value: function MobileMenu() {
-      var isActive = this.state.isActive;
-      this.setState({
-        isActive: !isActive
-      });
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this2 = this;
-
-      var isActive = this.state.isActive;
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(ContainerStyled, {
-        className: isActive ? "navbar" : "navbar is-fixed-top",
-        role: "navigation",
-        "aria-label": "main navigation",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 105
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "container is-medium ",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 109
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-brand",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 110
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 111
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        className: "navbar-item",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 112
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
-        className: "logo",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 113
-        },
-        __self: this
-      }, "BLCOKCHAIN"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        role: "button",
-        className: isActive ? "navbar-burger burger mobile is-active" : "navbar-burger burger mobile",
-        "aria-label": "menu",
-        "aria-expanded": "false",
-        "data-target": "navbarBasicExample",
-        onClick: function onClick() {
-          return _this2.MobileMenu();
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 117
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        "aria-hidden": "true",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 125
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        "aria-hidden": "true",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 126
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        "aria-hidden": "true",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 127
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        id: "navbarBasicExample",
-        className: isActive ? "navbar-menu is-active" : "navbar-menu",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 131
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-start",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 132
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-item has-dropdown is-hoverable Nav",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 133
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        className: "navbar-item nav-a",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 134
-        },
-        __self: this
-      }, "Product"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-dropdown",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 135
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-item add",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 136
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 137
-        },
-        __self: this
-      }, "wallet"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 138
-        },
-        __self: this
-      }, "Send,receive and Trade")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-item add",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 140
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 141
-        },
-        __self: this
-      }, "Blochan Markets"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 142
-        },
-        __self: this
-      }, "Institutional Portal")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-item add",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 144
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 145
-        },
-        __self: this
-      }, "LockBox"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 146
-        },
-        __self: this
-      }, "Hardware Wallet")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-item add",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 149
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 150
-        },
-        __self: this
-      }, "Developers"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 151
-        },
-        __self: this
-      }, "Access our API")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-item has-dropdown is-hoverable Nav",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 155
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        className: "navbar-item nav-a",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 156
-        },
-        __self: this
-      }, "Data"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-dropdown",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 157
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-item add",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 158
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 159
-        },
-        __self: this
-      }, "Prices"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 160
-        },
-        __self: this
-      }, "Quotes, News, and More")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-item add",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 162
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 163
-        },
-        __self: this
-      }, "Charts"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 164
-        },
-        __self: this
-      }, "Stats, and Network Activity")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-item add",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 166
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 167
-        },
-        __self: this
-      }, "Bitcoin Explorer"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 168
-        },
-        __self: this
-      }, "Search BTC Blockchain")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-item add",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 170
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 171
-        },
-        __self: this
-      }, "Ethereum Explorer"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 172
-        },
-        __self: this
-      }, "Search ETH Blockchain")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-item add",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 174
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 175
-        },
-        __self: this
-      }, "Bitcoin Cash Explorer"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 176
-        },
-        __self: this
-      }, "Search BCH Blockchain")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        className: "navbar-item Nav nav-a",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 180
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
-        "class": "fas fa-search",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 181
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-end",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 185
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-item",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 186
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "buttons",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 187
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        className: "button is-primary",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 188
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/login",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 189
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 190
-        },
-        __self: this
-      }, "Log in "))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        className: "button is-primary",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 193
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/signup",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 194
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 195
-        },
-        __self: this
-      }, "Sign up ")))))))));
-    }
-  }]);
-
-  return Header;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
-
-
-
-/***/ }),
-
-/***/ "./components/Main.js":
+/***/ "./components/Form.js":
 /*!****************************!*\
-  !*** ./components/Main.js ***!
+  !*** ./components/Form.js ***!
   \****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1244,259 +12,325 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\Main.js";
+/* harmony import */ var _components_PageFooter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/PageFooter */ "./components/PageFooter.js");
+var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\Form.js";
 
 
-var MainStyled = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
-  displayName: "Main__MainStyled",
-  componentId: "sc-1rv7948-0"
-})(["background-color:#FFFFFF;padding-top:1rem;padding-bottom:9rem;font-family:Roboto,sans-serif;.maindiv{padding-top:10rem;}.Heading{padding-top:5rem;font-size:3rem;}.sub{padding-top:1rem;font-size:2rem;}@media screen and (max-width:480px){.test{padding-right:2rem;}}"]);
 
-var Main = function Main() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MainStyled, {
+
+var FormStyled = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "Form__FormStyled",
+  componentId: "sc-15cwhx-0"
+})(["width:35%;@media screen and (max-width:480px){width:90%;}.mybox{margin-top:8rem;margin-bottom:1rem;border-radius:8px;box-shadow:rgba(0,0,0,0.21) 0px 2px 8px 0px;}.mybutton{margin-top:1rem;}.size{padding:1rem 2rem;}"]);
+
+var Form = function Form(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FormStyled, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "box mybox",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container size",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "section",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "title is-3 is-spaced is-medium",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns maindiv",
+  }, props.heading)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column is-two-fifths",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label is-large",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "title Heading has-text-weight-bold",
+  }, props.id), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
     },
     __self: this
-  }, "Your Passport to the Future of Finance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "subtitle sub",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "input is-large",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
     },
     __self: this
-  }, "The first and most trusted global cryptocurrency comapny")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://www.blockchain.com/static/img/home/home-map-ppl.png",
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: props.login,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label has-text-centered",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column test",
+  }, "Your Wallet ID can be found at the bottom of any email we\u2019ve ever sent you. Need a reminder?   ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "title  has-text-weight-bold is-spaced",
+  }, "Send my Wallet ID"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 52
     },
     __self: this
-  }, "Invest"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "subtitle is-3 has-text-weight-light ",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }, "Exchange and transact bitcoin, ethereum, bitcoin cash, USD PAX, and stellar lumens using the world's most trusted and secure cryptocurrency wallet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-link",
-    href: "#",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, "Lean more ->")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column test",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "title  has-text-weight-bold is-spaced ",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: this
-  }, "Explore"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "subtitle is-3 has-text-weight-light ",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label is-large",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 53
     },
     __self: this
-  }, "Exchange and transact bitcoin, ethereum, bitcoin cash, USD PAX, and stellar lumens using the world's most trusted and secure cryptocurrency wallet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-link",
-    href: "#",
+  }, "Password"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54
     },
     __self: this
-  }, "Lean more ->")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column test",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "input is-large",
+    type: "password",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 55
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "title  has-text-weight-bold is-spaced",
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: props.signup,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 58
     },
     __self: this
-  }, "Analyze"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "subtitle is-3 has-text-weight-light ",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59
     },
     __self: this
-  }, "Exchange and transact bitcoin, ethereum, bitcoin cash, USD PAX, and stellar lumens using the world's most trusted and secure cryptocurrency wallet"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "subtitle is-4 has-text-link",
-    href: "#",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label is-large",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60
     },
     __self: this
-  }, "Lean more ->"))))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Main);
-
-/***/ }),
-
-/***/ "./components/MyLayout.js":
-/*!********************************!*\
-  !*** ./components/MyLayout.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
-var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\MyLayout.js";
-
-
-
-
-
-var Layout = function Layout(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Confirm Password"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 61
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "input  is-large",
+    type: "password",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 62
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-    rel: "stylesheet",
-    href: "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css",
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: props.signup,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 66
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
-    defer: true,
-    src: "https://use.fontawesome.com/releases/v5.3.1/js/all.js",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 67
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-    href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap",
-    rel: "stylesheet",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 68
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 69
     },
     __self: this
-  }), props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "checkbox",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 70
+    },
+    __self: this
+  }), "I have read and agreed to the  ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, "Terms of Service"), " &  ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, "Privacy Policy."))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "button is-link  is-large is-fullwidth mybutton",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, props.sub))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: props.login,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "columns",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "column",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "has-text-link has-text-weight-bold\t",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, "Login Via mobile"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "column has-text-right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "has-text-link has-text-weight-bold\t",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, "Need some Help?")))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PageFooter__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95
     },
     __self: this
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Layout);
+/* harmony default export */ __webpack_exports__["default"] = (Form);
 
 /***/ }),
 
-/***/ "./components/Reach.js":
-/*!*****************************!*\
-  !*** ./components/Reach.js ***!
-  \*****************************/
+/***/ "./components/PageFooter.js":
+/*!**********************************!*\
+  !*** ./components/PageFooter.js ***!
+  \**********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1505,123 +339,431 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\Reach.js";
+var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\PageFooter.js";
 
 
-var ReachStyled = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
-  displayName: "Reach__ReachStyled",
-  componentId: "agn249-0"
-})(["background-color:#121D33;padding-bottom:1rem;.Heading{padding-top:1rem;padding-bottom:0.2rem;}.Sub{margin-top:10rem;}"]);
+var Container = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "PageFooter__Container",
+  componentId: "sc-1dbmi71-0"
+})(["margin-top:1rem;padding-bottom:6.5%;.link{margin-left:1rem;font-size:1rem;}img{width:15rem;height:5rem;}"]);
 
-var Reach = function Reach() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ReachStyled, {
+var PageFooter = function PageFooter() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container",
+    "class": "columns",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns ",
+    "class": "column",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column has-text-centered ",
+    className: "select is-medium ",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "title is-2 has-text-white Heading",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    className: "Language",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     },
     __self: this
-  }, "40M+"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "subtitle is-4 has-text-grey-lighter",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "English",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
-  }, "Wallets")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column has-text-centered",
+  }, "English"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Argentina",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Argentina"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Bolivia",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "title is-2 has-text-white Heading Heading",
+  }, "Bolivia"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Brazil",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
-  }, "$200B+"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "subtitle is-4 has-text-grey-lighter",
+  }, "Brazil"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Chile",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
     },
     __self: this
-  }, "Transacted")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column has-text-centered",
+  }, "Chile"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Colombia",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, "Colombia"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Ecuador",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "title is-2 has-text-white Heading",
+  }, "Ecuador"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Guyana",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
     },
     __self: this
-  }, "140"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "subtitle is-4 has-text-grey-lighter",
+  }, "Guyana"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Paraguay",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: this
-  }, "countries")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column has-text-centered",
+  }, "Paraguay"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Peru",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "Peru"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Suriname",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "title is-2 has-text-white Heading",
+  }, "Suriname"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Uruguay",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
     },
     __self: this
-  }, "2011"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "subtitle is-4 has-text-grey-lighter",
+  }, "Uruguay"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Venezuela",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
     },
     __self: this
-  }, "Founded")))));
+  }, "Venezuela")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "column has-text-right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "has-text-white has-text-weight-bold is-inline",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, "Data")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "has-text-white has-text-weight-bold is-inline",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "About")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "has-text-white has-text-weight-bold is-inline",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, "Blog")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "has-text-white has-text-weight-bold is-inline",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, "Support")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column has-text-right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "http://rajasthan.gov.in/wp-content/themes/twentysixteen/img/app-stores/ios-store.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuJHHfcT3RN0bjVTpm36npCBlrx1116--2xycDeMmS8pNMcLi5lw",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Reach);
+/* harmony default export */ __webpack_exports__["default"] = (PageFooter);
+
+/***/ }),
+
+/***/ "./components/PageHeader.js":
+/*!**********************************!*\
+  !*** ./components/PageHeader.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\components\\PageHeader.js";
+
+
+
+
+var PageStyled = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "PageHeader__PageStyled",
+  componentId: "sc-189s61r-0"
+})(["background-color:#144699;padding:1rem 2rem 3rem 0rem;padding-bottom:0;margin-bottom:1rem;.logo{color:#FFFFFF;font-size:40px;font-weight:800;}.mybutton{background:transparent;border:2px solid white;border-radius:5px;margin-left:1rem;}"]);
+
+var PageHeader = function PageHeader(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "stylesheet",
+    href: "https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    defer: true,
+    src: "https://use.fontawesome.com/releases/v5.3.1/js/all.js",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap",
+    rel: "stylesheet",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PageStyled, {
+    className: " navbar is-fixed-top",
+    role: "navigation",
+    "aria-label": "main navigation",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "navbar-brand",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "navbar-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "logo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "BLCOKCHAIN"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    role: "button",
+    className: "navbar-burger burger",
+    "aria-label": "menu",
+    "aria-expanded": "false",
+    "data-target": "navbarBasicExample",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "aria-hidden": "true",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "aria-hidden": "true",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "aria-hidden": "true",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "navbarBasicExample",
+    className: "navbar-menu",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "navbar-end",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "navbar-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "has-text-white has-text-weight-bold is-size-5 mytitle",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, props.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "buttons ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: props.link,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "button is-medium  mybutton has-text-white has-text-weight-bold is-size-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, props.buttontitle))))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (PageHeader);
 
 /***/ }),
 
@@ -8480,21 +7622,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Ckunal%5CDesktop%5CBlock%5Cpages%5Cindex.js!./":
-/*!**********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Ckunal%5CDesktop%5CBlock%5Cpages%5Cindex.js ***!
-  \**********************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignup&absolutePagePath=C%3A%5CUsers%5Ckunal%5CDesktop%5CBlock%5Cpages%5Csignup.js!./":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignup&absolutePagePath=C%3A%5CUsers%5Ckunal%5CDesktop%5CBlock%5Cpages%5Csignup.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/signup", function() {
+      var page = __webpack_require__(/*! ./pages/signup.js */ "./pages/signup.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/signup.js */ "./pages/signup.js", function() {
+          if(!next.router.components["/signup"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/signup.js */ "./pages/signup.js")
+          next.router.update("/signup", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -16324,10 +15466,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/signup.js":
+/*!*************************!*\
+  !*** ./pages/signup.js ***!
+  \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16337,89 +15479,63 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_MyLayout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/MyLayout */ "./components/MyLayout.js");
-/* harmony import */ var _components_Banner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Banner */ "./components/Banner.js");
-/* harmony import */ var _components_Reach__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Reach */ "./components/Reach.js");
-/* harmony import */ var _components_Main__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Main */ "./components/Main.js");
-/* harmony import */ var _components_Create__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Create */ "./components/Create.js");
-var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\pages\\index.js";
-
-
-
-
+/* harmony import */ var _components_PageHeader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/PageHeader */ "./components/PageHeader.js");
+/* harmony import */ var _components_Form__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Form */ "./components/Form.js");
+var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\pages\\signup.js";
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3612379279",
+    className: "jsx-1652390318",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 5
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_PageHeader__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Already have a wallet?",
+    buttontitle: "Log In",
+    link: "/login",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
-    className: "jsx-3612379279",
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-1652390318" + " " + "columns is-mobile is-centered",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 7
     },
     __self: this
-  }, "Blockchain")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MyLayout__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Form__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    heading: "Create A wallet",
+    id: "Email",
+    sub: "Create My Wallet",
+    login: "is-hidden",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Banner__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Reach__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Main__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Create__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 8
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3612379279",
+    id: "1652390318",
     __self: this
-  }, "body{background-color:#144699;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xca3VuYWxcXERlc2t0b3BcXEJsb2NrXFxwYWdlc1xcaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUIyQixBQUd5Qyx5QkFDNUIiLCJmaWxlIjoiQzpcXFVzZXJzXFxrdW5hbFxcRGVza3RvcFxcQmxvY2tcXHBhZ2VzXFxpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcclxuXHJcbmltcG9ydCBMYXlvdXQgZnJvbSBcIi4uL2NvbXBvbmVudHMvTXlMYXlvdXRcIjtcclxuaW1wb3J0IEJhbm5lciBmcm9tIFwiLi4vY29tcG9uZW50cy9CYW5uZXJcIjtcclxuaW1wb3J0IFJlYWNoIGZyb20gXCIuLi9jb21wb25lbnRzL1JlYWNoXCI7XHJcbmltcG9ydCBNYWluIGZyb20gXCIuLi9jb21wb25lbnRzL01haW5cIjtcclxuaW1wb3J0IENyZWF0ZSBmcm9tIFwiLi4vY29tcG9uZW50cy9DcmVhdGVcIjtcclxuXHJcbmV4cG9ydCBkZWZhdWx0ICgpID0+IChcclxuICAgIDxkaXY+XHJcbiAgICAgICAgPEhlYWQ+XHJcbiAgICAgICAgICAgIDx0aXRsZT5CbG9ja2NoYWluPC90aXRsZT5cclxuICAgICAgICA8L0hlYWQ+XHJcbiAgICAgICAgPExheW91dD5cclxuICAgICAgICAgICAgPEJhbm5lciAvPlxyXG4gICAgICAgICAgICA8UmVhY2ggLz5cclxuICAgICAgICAgICAgPE1haW4gLz5cclxuICAgICAgICAgICAgPENyZWF0ZSAvPlxyXG4gICAgICAgIDwvTGF5b3V0PlxyXG4gICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXHJcbiAgICAgICAgICAgIGJvZHl7XHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiMxNDQ2OTk7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICA8L2Rpdj5cclxuKTsiXX0= */\n/*@ sourceURL=C:\\Users\\kunal\\Desktop\\Block\\pages\\index.js */"));
+  }, "body{background-color:#144699;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xca3VuYWxcXERlc2t0b3BcXEJsb2NrXFxwYWdlc1xcc2lnbnVwLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVMyQixBQUcwQyx5QkFDakMiLCJmaWxlIjoiQzpcXFVzZXJzXFxrdW5hbFxcRGVza3RvcFxcQmxvY2tcXHBhZ2VzXFxzaWdudXAuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUGFnZUhlYWRlciBmcm9tIFwiLi4vY29tcG9uZW50cy9QYWdlSGVhZGVyXCJcclxuaW1wb3J0IEZvcm0gZnJvbSBcIi4uL2NvbXBvbmVudHMvRm9ybVwiO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgKCkgPT4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgICA8UGFnZUhlYWRlciB0aXRsZT1cIkFscmVhZHkgaGF2ZSBhIHdhbGxldD9cIiBidXR0b250aXRsZT1cIkxvZyBJblwiIGxpbms9XCIvbG9naW5cIiAvPlxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sdW1ucyBpcy1tb2JpbGUgaXMtY2VudGVyZWRcIj5cclxuICAgICAgICAgICAgPEZvcm0gaGVhZGluZz1cIkNyZWF0ZSBBIHdhbGxldFwiIGlkPVwiRW1haWxcIiBzdWI9XCJDcmVhdGUgTXkgV2FsbGV0XCIgbG9naW49XCJpcy1oaWRkZW5cIiAvPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXHJcbiAgICAgICAgYm9keXtcclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMxNDQ2OTk7XHJcbiAgICAgICAgfWB9XHJcbiAgICAgICAgPC9zdHlsZT5cclxuICAgIDwvZGl2PlxyXG4pOyJdfQ== */\n/*@ sourceURL=C:\\Users\\kunal\\Desktop\\Block\\pages\\signup.js */"));
 });
 
 /***/ }),
 
-/***/ 0:
-/*!**************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Ckunal%5CDesktop%5CBlock%5Cpages%5Cindex.js ***!
-  \**************************************************************************************************************************/
+/***/ 3:
+/*!*********************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fsignup&absolutePagePath=C%3A%5CUsers%5Ckunal%5CDesktop%5CBlock%5Cpages%5Csignup.js ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Ckunal%5CDesktop%5CBlock%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Ckunal%5CDesktop%5CBlock%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fsignup&absolutePagePath=C%3A%5CUsers%5Ckunal%5CDesktop%5CBlock%5Cpages%5Csignup.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsignup&absolutePagePath=C%3A%5CUsers%5Ckunal%5CDesktop%5CBlock%5Cpages%5Csignup.js!./");
 
 
 /***/ }),
@@ -16435,5 +15551,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=index.js.map
+},[[3,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=signup.js.map
