@@ -943,7 +943,7 @@ function (_React$Component) {
         "aria-label": "main navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 104
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -981,7 +981,7 @@ function (_React$Component) {
           lineNumber: 113
         },
         __self: this
-      }, "BLCOKCHAIN"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+      }, "BLOCKCHAIN"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         role: "button",
         className: isActive ? "navbar-burger burger mobile is-active" : "navbar-burger burger mobile",
         "aria-label": "menu",
@@ -999,21 +999,21 @@ function (_React$Component) {
         "aria-hidden": "true",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 129
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         "aria-hidden": "true",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 126
+          lineNumber: 130
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         "aria-hidden": "true",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 127
+          lineNumber: 131
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -1021,302 +1021,302 @@ function (_React$Component) {
         className: isActive ? "navbar-menu is-active" : "navbar-menu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131
+          lineNumber: 135
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "navbar-start",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132
+          lineNumber: 139
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "navbar-item has-dropdown is-hoverable Nav",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 133
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        className: "navbar-item nav-a",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 134
-        },
-        __self: this
-      }, "Product"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-dropdown",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 135
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-item add",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 136
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 137
-        },
-        __self: this
-      }, "wallet"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 138
-        },
-        __self: this
-      }, "Send,receive and Trade")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "navbar-item add",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 140
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        className: "navbar-item nav-a",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 141
         },
         __self: this
-      }, "Blochan Markets"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }, "Product"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "navbar-dropdown",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 142
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "navbar-item add",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 143
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 144
+        },
+        __self: this
+      }, "wallet"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 145
+        },
+        __self: this
+      }, "Send,receive and Trade")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "navbar-item add",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 147
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 148
+        },
+        __self: this
+      }, "Blochan Markets"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 149
         },
         __self: this
       }, "Institutional Portal")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "navbar-item add",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144
+          lineNumber: 151
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 145
+          lineNumber: 152
         },
         __self: this
       }, "LockBox"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 146
+          lineNumber: 153
         },
         __self: this
       }, "Hardware Wallet")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "navbar-item add",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 149
+          lineNumber: 156
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 150
+          lineNumber: 157
         },
         __self: this
       }, "Developers"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 151
+          lineNumber: 158
         },
         __self: this
       }, "Access our API")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "navbar-item has-dropdown is-hoverable Nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155
+          lineNumber: 162
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         className: "navbar-item nav-a",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 156
+          lineNumber: 163
         },
         __self: this
       }, "Data"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "navbar-dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 157
+          lineNumber: 164
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "navbar-item add",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 158
+          lineNumber: 165
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159
+          lineNumber: 166
         },
         __self: this
       }, "Prices"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160
+          lineNumber: 167
         },
         __self: this
       }, "Quotes, News, and More")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "navbar-item add",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 162
+          lineNumber: 169
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 163
+          lineNumber: 170
         },
         __self: this
       }, "Charts"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 164
+          lineNumber: 171
         },
         __self: this
       }, "Stats, and Network Activity")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "navbar-item add",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 166
+          lineNumber: 173
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 167
+          lineNumber: 174
         },
         __self: this
       }, "Bitcoin Explorer"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 168
+          lineNumber: 175
         },
         __self: this
       }, "Search BTC Blockchain")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "navbar-item add",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 170
+          lineNumber: 177
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 171
+          lineNumber: 178
         },
         __self: this
       }, "Ethereum Explorer"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 172
+          lineNumber: 179
         },
         __self: this
       }, "Search ETH Blockchain")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "navbar-item add",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 174
+          lineNumber: 181
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 175
+          lineNumber: 182
         },
         __self: this
       }, "Bitcoin Cash Explorer"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 176
+          lineNumber: 183
         },
         __self: this
       }, "Search BCH Blockchain")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         className: "navbar-item Nav nav-a",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 180
+          lineNumber: 187
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
         "class": "fas fa-search",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 181
+          lineNumber: 188
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "navbar-end",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 185
+          lineNumber: 192
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "navbar-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 186
+          lineNumber: 193
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "buttons",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 187
+          lineNumber: 194
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         className: "button is-primary",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 188
+          lineNumber: 195
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/login",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 189
+          lineNumber: 196
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 190
+          lineNumber: 197
         },
         __self: this
       }, "Log in "))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         className: "button is-primary",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 193
+          lineNumber: 200
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/signup",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 194
+          lineNumber: 201
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 195
+          lineNumber: 202
         },
         __self: this
       }, "Sign up ")))))))));

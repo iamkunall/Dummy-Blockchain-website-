@@ -1916,10 +1916,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/signup.js":
-/*!*************************!*\
-  !*** ./pages/signup.js ***!
-  \*************************/
+/***/ "./pages/login.js":
+/*!************************!*\
+  !*** ./pages/login.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1931,61 +1931,61 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_PageHeader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/PageHeader */ "./components/PageHeader.js");
 /* harmony import */ var _components_Form__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Form */ "./components/Form.js");
-var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\pages\\signup.js";
+var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\pages\\login.js";
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1652390318",
+    className: "jsx-2070642854",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_PageHeader__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Dont't have a wallet?",
+    buttontitle: "Create One Now",
+    link: "/signup",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_PageHeader__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Already have a wallet?",
-    buttontitle: "Log In",
-    link: "/login",
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2070642854" + " " + "columns is-mobile is-centered",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1652390318" + " " + "columns is-mobile is-centered",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Form__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    heading: "Welcome Back!",
+    id: "Wallet Id",
+    sub: "Log In",
+    signup: "is-hidden",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Form__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    heading: "Create A wallet",
-    id: "Email",
-    sub: "Create My Wallet",
-    login: "is-hidden",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1652390318",
+    id: "2070642854",
     __self: this
-  }, "body{background-color:#144699;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xca3VuYWxcXERlc2t0b3BcXEJsb2NrXFxwYWdlc1xcc2lnbnVwLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVMyQixBQUcwQyx5QkFDakMiLCJmaWxlIjoiQzpcXFVzZXJzXFxrdW5hbFxcRGVza3RvcFxcQmxvY2tcXHBhZ2VzXFxzaWdudXAuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUGFnZUhlYWRlciBmcm9tIFwiLi4vY29tcG9uZW50cy9QYWdlSGVhZGVyXCJcclxuaW1wb3J0IEZvcm0gZnJvbSBcIi4uL2NvbXBvbmVudHMvRm9ybVwiO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgKCkgPT4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgICA8UGFnZUhlYWRlciB0aXRsZT1cIkFscmVhZHkgaGF2ZSBhIHdhbGxldD9cIiBidXR0b250aXRsZT1cIkxvZyBJblwiIGxpbms9XCIvbG9naW5cIiAvPlxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sdW1ucyBpcy1tb2JpbGUgaXMtY2VudGVyZWRcIj5cclxuICAgICAgICAgICAgPEZvcm0gaGVhZGluZz1cIkNyZWF0ZSBBIHdhbGxldFwiIGlkPVwiRW1haWxcIiBzdWI9XCJDcmVhdGUgTXkgV2FsbGV0XCIgbG9naW49XCJpcy1oaWRkZW5cIiAvPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXHJcbiAgICAgICAgYm9keXtcclxuICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMxNDQ2OTk7XHJcbiAgICAgICAgfWB9XHJcbiAgICAgICAgPC9zdHlsZT5cclxuICAgIDwvZGl2PlxyXG4pOyJdfQ== */\n/*@ sourceURL=C:\\Users\\kunal\\Desktop\\Block\\pages\\signup.js */"));
+  }, "body{background-color:#144699;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xca3VuYWxcXERlc2t0b3BcXEJsb2NrXFxwYWdlc1xcbG9naW4uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBUTJCLEFBRzBDLHlCQUNqQyIsImZpbGUiOiJDOlxcVXNlcnNcXGt1bmFsXFxEZXNrdG9wXFxCbG9ja1xccGFnZXNcXGxvZ2luLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFBhZ2VIZWFkZXIgZnJvbSBcIi4uL2NvbXBvbmVudHMvUGFnZUhlYWRlclwiXHJcbmltcG9ydCBGb3JtIGZyb20gXCIuLi9jb21wb25lbnRzL0Zvcm1cIjtcclxuZXhwb3J0IGRlZmF1bHQgKCkgPT4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgICA8UGFnZUhlYWRlciB0aXRsZT1cIkRvbnQndCBoYXZlIGEgd2FsbGV0P1wiIGJ1dHRvbnRpdGxlPVwiQ3JlYXRlIE9uZSBOb3dcIiBsaW5rPVwiL3NpZ251cFwiIC8+XHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2x1bW5zIGlzLW1vYmlsZSBpcy1jZW50ZXJlZFwiPlxyXG4gICAgICAgICAgICA8Rm9ybSBoZWFkaW5nPVwiV2VsY29tZSBCYWNrIVwiIGlkPVwiV2FsbGV0IElkXCIgc3ViPVwiTG9nIEluXCIgc2lnbnVwPVwiaXMtaGlkZGVuXCIgLz5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxyXG4gICAgICAgIGJvZHl7ICAgXHJcbiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTQ0Njk5O1xyXG4gICAgICAgIH1gfVxyXG4gICAgICAgIDwvc3R5bGU+XHJcbiAgICA8L2Rpdj5cclxuKTsiXX0= */\n/*@ sourceURL=C:\\Users\\kunal\\Desktop\\Block\\pages\\login.js */"));
 });
 
 /***/ }),
 
 /***/ 6:
-/*!*******************************!*\
-  !*** multi ./pages/signup.js ***!
-  \*******************************/
+/*!******************************!*\
+  !*** multi ./pages/login.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\kunal\Desktop\Block\pages\signup.js */"./pages/signup.js");
+module.exports = __webpack_require__(/*! C:\Users\kunal\Desktop\Block\pages\login.js */"./pages/login.js");
 
 
 /***/ }),
@@ -2233,4 +2233,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=signup.js.map
+//# sourceMappingURL=login.js.map
