@@ -15528,7 +15528,7 @@ var _jsxFileName = "C:\\Users\\kunal\\Desktop\\Block\\pages\\login.js";
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!*******************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Flogin&absolutePagePath=C%3A%5CUsers%5Ckunal%5CDesktop%5CBlock%5Cpages%5Clogin.js ***!
   \*******************************************************************************************************************************/
@@ -15551,5 +15551,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=login.js.map
