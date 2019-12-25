@@ -48,11 +48,15 @@ const PageFooter = () => (
             </div>
         </div>
         <div className="columns">
-            <div className="column has-text-right">
-                <img src="http://rajasthan.gov.in/wp-content/themes/twentysixteen/img/app-stores/ios-store.png" />
+            <div className="column">
+            <figure class="image is-2by1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvc9zFHr8LyQlSsrftIuRYFq5i6gkp6tuufYM2jP0C0lCHhTPu&s" />
+                </figure>
             </div>
             <div className="column">
+            <figure class="image is-2by1">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuJHHfcT3RN0bjVTpm36npCBlrx1116--2xycDeMmS8pNMcLi5lw" />
+                </figure>
             </div>
         </div>
     </Container>
